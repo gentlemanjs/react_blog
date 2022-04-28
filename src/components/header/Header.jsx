@@ -14,7 +14,7 @@ export default function Header() {
                 <h2 className="ir_so">메인 메뉴</h2>
                 <ul>
                     <li>
-                        <Link to="/login">HOME</Link>
+                        <Link to="/">HOME</Link>
                     </li>
                     <li>
                         <Link to="/login">LOGIN</Link>
