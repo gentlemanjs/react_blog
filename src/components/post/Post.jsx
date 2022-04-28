@@ -1,14 +1,14 @@
 import React from "react";
 import "./post.css";
-
+import { Link } from "react-router-dom";
 export default function Post() {
     return (
         <>
             <article className="post">
                 <figure className="post__header" aria-hidden="true">
-                    <a href="/view">
+                    <Link to="/view">
                         <img src="https://source.unsplash.com/800x600/?nature,water" alt="" />
-                    </a>
+                    </Link>
                 </figure>
                 <div className="post__body">
                     <span className="post__cate">React</span>

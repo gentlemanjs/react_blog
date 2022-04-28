@@ -1,28 +1,29 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
         <header id="header">
             <h1 className="logo">
-                <a href="/">
+                <Link to="/">
                     REACT <em>class</em>
-                </a>
+                </Link>
             </h1>
             <nav className="menu">
                 <h2 className="ir_so">메인 메뉴</h2>
                 <ul>
                     <li>
-                        <a href="/">HOME</a>
+                        <Link to="/login">HOME</Link>
                     </li>
                     <li>
-                        <a href="/login">LOGIN</a>
+                        <Link to="/login">LOGIN</Link>
                     </li>
                     <li>
-                        <a href="/">WRITE</a>
+                        <Link to="/">WRITE</Link>
                     </li>
                     <li>
-                        <a href="/">CONTACT</a>
+                        <Link to="/">CONTACT</Link>
                     </li>
                     <li>
                         <a href="/">LOGOUT</a>
