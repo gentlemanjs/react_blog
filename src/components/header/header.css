@@ -63,17 +63,22 @@
 }
 
 #header .member {
+    align-items: center;
+    display: flex;
     flex: 0 0 20%;
+    justify-content: flex-end;
+    padding: 5px 0;
     text-align: right;
-    padding: 5px 0px;
 }
 #header .member img {
-    width: 40px;
-    height: 40px;
     border-radius: 50%;
+    cursor: pointer;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: cover;
+    width: 40px;
     vertical-align: -15px;
-    padding-right: 5px;
 }
 #header .member span {
-    margin-right: 10px;
+    margin-right: 20px;
 }

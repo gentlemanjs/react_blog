@@ -3,10 +3,10 @@ import "./footer.css";
 
 export default function Footer() {
     return (
-        <footer id="footer" class="footer gray">
-            <div class="container">
-                <h2 class="ir_so">푸터 바로가기 메뉴</h2>
-                <div class="footer-menu">
+        <footer id="footer" className="footer gray">
+            <div className="container">
+                <h2 className="ir_so">푸터 바로가기 메뉴</h2>
+                <div className="footer-menu">
                     <div>
                         <h3>레이아웃 영역</h3>
                         <ul>
@@ -95,7 +95,7 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <address class="footer-rights">&copy; 2022 webstoryboy. All rights reserved.</address>
+                <address className="footer-rights">&copy; 2022 webstoryboy. All rights reserved.</address>
             </div>
         </footer>
     );

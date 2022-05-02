@@ -20,13 +20,13 @@ export default function Header() {
                         <Link to="/login">LOGIN</Link>
                     </li>
                     <li>
-                        <Link to="/">WRITE</Link>
+                        <Link to="/join">JOIN</Link>
                     </li>
                     <li>
-                        <Link to="/">CONTACT</Link>
+                        <Link to="/view">POST</Link>
                     </li>
                     <li>
-                        <a href="/">LOGOUT</a>
+                        <a href="/write">WRITE</a>
                         {/* <ul className="sub">
                             <li>
                                 <a href="/">문제 만들기</a>
@@ -40,11 +40,13 @@ export default function Header() {
             </nav>
             <div className="member">
                 <span className="ir_so">회원 정보 영역</span>
-                <img
-                    src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                    alt=""
-                />
-                <span>님 환영합니다.</span>
+                <a href="/mypage">
+                    <img
+                        src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        alt=""
+                    />
+                    <span>님 환영합니다.</span>
+                </a>
             </div>
         </header>
     );
